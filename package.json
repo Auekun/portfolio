@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "My profile",
   "main": "index.js",
-  
   "scripts": {
     "start": "node index.js"
   },
- "engines": {
+  "engines": {
     "node": "12.18.0",
     "npm": "6.14.4"
   },
-
   "author": "Auekun Bootsridouang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auekun/Auekun_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Auekun/Auekun_portfolio/issues"
+  },
+  "homepage": "https://github.com/Auekun/Auekun_portfolio#readme"
 }

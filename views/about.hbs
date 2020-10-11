@@ -1,11 +1,14 @@
-<h1>{{myData.name}}</h1>
+<h1 class="tit">ABOUTME</h1>
+
 <div>
-   <ul class="info">
+   <ul class="info"></ul>
        {{#with myData.aboutme}}
-       <li><span class="first-block">Fullname:</span><span class="second-block">{{fullname}}</span></li>
-       <li><span class="first-block">Phone:<span><span class="second-block"></span>{{Phone}}</span></li>
-       <li><span class="first-block">Email:<a href="{{Email}}"></span><span class="second-block">{{Email}}</a></span></li>
-       <li><span class="first-block">Address:</span><span class="second-block"></span>{{Address}} </span></li>
+       <li><span class="first-block">Fullname : </span> <span class="second-block"></span>{{Fullname}}</span></li>
+       <li><span class="first-block">Nickname : </span> <span class="second-block"></span>{{Nickname}}</span></li>
+       <li><span class="first-block">Age : </span> <span class="second-block"></span>{{Age}}</span></li>
+       <li><span class="first-block">Phone : </span> <span class="second-block"></span>{{Phone}}</span></li>
+       <li><span class="first-block">Email : </span> <span class="second-block"></span>{{Email}}</span></li>
+       <li><span class="first-block">Address : </span> <span class="second-block"></span>{{Address}} </span></li>
         {{/with}}
         </ul>
         </div>
